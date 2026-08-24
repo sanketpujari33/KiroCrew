@@ -39,14 +39,11 @@ __pycache__/
 /.venv311
 
 # Editor / IDE
-.vscode/
 .idea/
 pyrightconfig.json
 *.sublime-*
 
 # Environment (machine-specific paths)
-.env
-.env.local
 .install-method
 
 # Frontend
@@ -147,3 +144,4 @@ SESSION_SUMMARY.md
 # Internal migration worklog — deliberately untracked (contains pre-scrub notes)
 MOCHI_MIGRATION.md
 website/.vitest-reports/
+config.bat
