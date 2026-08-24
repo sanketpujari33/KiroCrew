@@ -6,7 +6,7 @@
   "desktopName": "kirocrew-desktop.desktop",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "node init && electron .",
     "test": "node --test test/*.test.js mochi/test/*.test.js crew-companion/test/*.test.js",
     "dist": "electron-builder",
     "dist:mac": "electron-builder --mac",
